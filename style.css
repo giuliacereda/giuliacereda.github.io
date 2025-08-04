@@ -1,24 +1,44 @@
 body {
   font-family: 'Georgia', serif;
+  background-color: #fdfaf6;
+  color: #333;
   margin: 0;
   padding: 0;
-  background: #f9f9f9;
-  color: #333;
+  line-height: 1.6;
 }
+
 header {
-  background: #4078c0;
+  background-color: #782f40;
   color: white;
-  padding: 1em;
+  padding: 2em 1em;
   text-align: center;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
 }
+
+nav {
+  margin-top: 1em;
+}
+
 nav a {
+  color: #f8e8ea;
   margin: 0 1em;
-  color: white;
   text-decoration: none;
+  font-weight: bold;
 }
+
+nav a:hover {
+  text-decoration: underline;
+}
+
 main {
   padding: 2em;
+  max-width: 800px;
+  margin: auto;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0,0,0,0.03);
+  border-radius: 5px;
 }
+
 a {
-  color: #4078c0;
+  color: #b03a48;
 }
