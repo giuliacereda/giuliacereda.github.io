@@ -16,8 +16,26 @@
       <a href="contact.html">Contact</a>
     </nav>
   </header>
-  <main>
-    <p>My research focuses on Bayesian modeling, forensic epigenetics, DNA methylation, and phenotype prediction.</p>
+
+  <main style="max-width: 800px; margin: auto; padding: 2em;">
+    <h2>Overview</h2>
+    <p>My research topics span <strong>probabilistic modelling</strong>, <strong>genetics</strong>, and <strong>forensic science</strong>, with a strong focus on developing transparent and rigorous frameworks applicable to real-world contexts.</p>
+
+    <h3>Forensic Likelihood Ratio Modelling</h3>
+    <p>I have developed new methodologies for the evaluation of <strong>likelihood ratios (LR)</strong> in forensic DNA evidence, especially when dealing with <em>rare haplotype matches</em> and <em>low-template DNA</em>. My contributions include Bayesian and frequentist solutions to handle unobserved profiles in reference databases, notably through the use of <strong>Bayesian nonparametric models</strong> such as the Poisson–Dirichlet process, and the implementation of <strong>object-oriented Bayesian networks</strong> to capture uncertainty in mixture analysis.</p>
+    <blockquote>
+      In <em>A Nonparametric Bayesian Approach to the Rare Type Match Problem</em>, I propose a fully Bayesian LR calculation based on a Poisson–Dirichlet prior, avoiding the bias of plug-in estimators. The framework was shown to significantly improve evidential assessment when dealing with unseen DNA profiles :contentReference[oaicite:1]{index=1}.
+    </blockquote>
+    <p>Another work, <em>Comparing Soft Classification Methods for the Rare Type Match Problem</em>, benchmarks various LR estimation strategies as classifiers, evaluating their calibration and refinement using proper scoring rules in forensic scenarios :contentReference[oaicite:2]{index=2}.</p>
+
+    <h3>Bayesian Nonparametric Inference</h3>
+    <p>As part of advancing theoretical foundations, in <em>Learning the Two Parameters of the Poisson–Dirichlet Distribution with a Forensic Application</em>, I analyzed MCMC and ABC methods to estimate the hyperparameters of the PD prior, comparing approximation vs fully Bayesian inference. This study highlighted the overestimation of LR when using maximum likelihood versus fully integrated Bayesian models :contentReference[oaicite:3]{index=3}.</p>
+
+    <h3>Epigenetics and Behavioural Inference</h3>
+    <p>More recently, my research shifted toward the interpretation of <strong>DNA methylation</strong> data to reconstruct lifestyle and behavioural traits. I explore how methylation signatures—such as smoking, age acceleration, and environmental exposure—can be integrated into probabilistic frameworks for forensic profiling and health modelling.</p>
+
+    <h3>Epidemiological and Public Health Modelling</h3>
+    <p>I have also contributed to multiple studies using compartmental models and Bayesian meta-analysis to inform public health decisions, particularly during the COVID‑19 pandemic. These works focus on forecasting epidemic dynamics, designing optimal screening plans, and providing actionable models for prevention strategies in school settings.</p>
   </main>
 </body>
 </html>
