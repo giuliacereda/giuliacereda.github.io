@@ -1,60 +1,61 @@
- <!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Blog – Giulia Cereda</title>
-  <link href="style.css" rel="stylesheet">
+  <title>Blog – What is forensic statistics?</title>
+  <link href="../style.css" rel="stylesheet">
 </head>
 <body>
   <header>
     <h1>Giulia Cereda</h1>
     <nav>
-      <a href="index.html">Home</a>
-      <a href="research.html">Research</a>
-      <a href="publications.html">Publications</a>
-      <a href="cv.html">CV</a>
-      <a href="contact.html">Contact</a>
-      <a href="blog.html">Blog</a>
+      <a href="../index.html">Home</a>
+      <a href="../research.html">Research</a>
+      <a href="../publications.html">Publications</a>
+      <a href="../cv.html">CV</a>
+      <a href="../contact.html">Contact</a>
+      <a href="../blog.html">Blog</a>
     </nav>
   </header>
 
   <main style="max-width: 700px; margin: auto; padding: 20px;">
-    <h2>Blog</h2>
-    
     <article>
-      <h3>What is forensic statistics and why it differs from traditional statistics</h3>
-      <img src="images/img_post_1.png" 
-           alt="Balance with DNA and statistical graph" 
-           style="max-width: 100%; margin: 20px 0;">
+      <h2>What is forensic statistics and why it differs from traditional statistics</h2>
+      <p><em>Posted on March 15, 2018</em></p>
+
       <p>
         When people think of statistics, they usually imagine surveys, economic indicators, 
         or clinical trials. In all these cases, the goal is to estimate general parameters: 
-        the average of a population, the effect of a treatment, or the relationship between variables.  
+        the average of a population, the effect of a treatment, or the relationship between variables.
       </p>
+
       <p>
         <strong>Forensic statistics</strong>, however, has a very different purpose: 
         to evaluate the <em>probative value</em> of data collected in a judicial context. 
         Rather than working with representative samples, forensic statisticians must often 
-        interpret a single piece of evidence – such as a partial DNA profile – and ask:  
-        <blockquote>
-          How much does this evidence support the hypothesis that the suspect is involved, 
-          compared to the hypothesis that they are not?
-        </blockquote>
+        interpret a single piece of evidence – such as a partial DNA profile – and ask:
       </p>
+
+      <blockquote>
+        How much does this evidence support the hypothesis that the suspect is involved, 
+        compared to the hypothesis that they are not?
+      </blockquote>
+
       <p>
         This shift in perspective introduces unique challenges: partial and noisy data, 
-        small population references, and above all the legal consequences of statistical 
-        reasoning. Forensic statistics relies heavily on likelihood ratios and Bayesian 
-        frameworks, ensuring that uncertainty is modelled explicitly and transparently.  
+        small population references, and above all the legal consequences of statistical reasoning. 
+        A central concept here is the 
+        <a href="post2.html">Likelihood Ratio (LR)</a>, 
+        which provides a transparent way to compare the strength of the evidence under competing hypotheses.
       </p>
-      <p>
-        As new data types emerge, such as DNA methylation for age and lifestyle inference, 
-        the need for robust, interpretable statistical methods becomes even more pressing. 
-        Forensic statistics is thus a field where mathematics, biology, law, and ethics meet, 
-        and where each case requires tailor-made solutions.  
-      </p>
-      </article>
 
+      <p>
+        Forensic statistics is therefore not only about mathematics, but also about law and ethics. 
+        It requires methods that are both rigorous and understandable, so that scientific results 
+        can be meaningfully discussed in court.
+      </p>
+    </article>
   </main>
 </body>
 </html>
+
